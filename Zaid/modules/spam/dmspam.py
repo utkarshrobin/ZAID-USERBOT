@@ -42,10 +42,10 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"Teri maa ka bhosdaaaa"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of my devs."
+                text = f"Uski maa ko phle se chod chuka hu."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
