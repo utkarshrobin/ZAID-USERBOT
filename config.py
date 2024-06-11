@@ -6,12 +6,12 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "25272906")) #optional
-API_HASH = getenv("API_HASH", "a341f3a7733db7bf7202708926baab42") #optional
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6158769611").split()))
-OWNER_ID = int(getenv("OWNER_ID", "5686300259"))
+API_ID = int(getenv("API_ID", "23965007")) #optional
+API_HASH = getenv("API_HASH", "128d2a36a2aaceec5f9daa257a0eb6e3") #optional
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5379811679").split()))
+OWNER_ID = int(getenv("OWNER_ID", "609517172"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://techbrou:Pandey2120@cluster1.6ujsngj.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "6139945042:AAGMb8-bQKsH_-5pmXClt8ZrUhMg3_fFalc")
+BOT_TOKEN = getenv("BOT_TOKEN", "6997586009:AAH5lUk0GWxjXoLQvBMYlzyN2BqAMIeu1nk")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/a11b92d11d3b9ab8e77ee.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT", "UTKARSH")
 PM_LOGGER = getenv("PM_LOGGER", "727610771")
@@ -19,7 +19,7 @@ LOG_GROUP = getenv("LOG_GROUP", "972249333")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/utkarshrobin/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
-STRING_SESSION1 = getenv("STRING_SESSION1", "BQDEZbSEDYSggI8J4V7Nt4F7k8GjuyLWriu_qRLmgK0VzK4ctR7jryPQw5AWVOPhOGGghDc-lCazH_qSHIBxCgwQBGVhAcVhVk5yb76CdLNPONGq14wAMOeebpPniY6o2JXmHR6ANGY5R8HQq6Nk3I_XrlzQsYDbtWSkJlWA8pMoGrfabRdOUOff1Wx2v7mLbcXdkW3ACfv87IN3Rs94IWTLX1M4-5wB6GunaUn-rNgLSWjsbCOwb-NIpi5Ly__BrrYYx-s8kCC6b1f14Y8o5wSPKs7wZmB9ruSMvjCj_rIYbGbES2C6isr7xWNE8ClM7TvVrX9JyTxBTTUGcFoDtkpEAAAAAZHvMEMA")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQDNvmIAElLxeofjh8HjVuI-oY4MjL-CSKF89hlH0T7YAX5-k8afF50wyLpf_cUHhkp7mtmIA16qVtnuxs1-7kVMO94cjvNUo3BXsJMNSkkno5NWrH0MBNnjgt_azLf59E3nn5RgmKkCzZ7gWugTr25Upd7V8rsx7r2LT87VWW8UxXwNIVT09gky9x9w0e2WQA2CAOwPzF7LMtZsKJa548IkGQ9lGhN6fbmzxBDwrlXPpKl6LUwnhMMFjvuk3CBdjkNB-tD2qD3tJKewSByEzs7e76wvrCqbzL5zUT42vfYB_v3drtzY76-SbiaNnkTiCKpVvdAuq-AjRYUh--N9cJ-ECJKyCgAAAAGxjNB6AA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
